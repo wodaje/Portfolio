@@ -60,6 +60,18 @@ body {
     box-shadow: 6px 4px 3px darkblue;
   }
   
+.center{
+  text-align: center;
+  font-style: italic;
+}
+
+.small-sub-text{
+font-size: 10px;
+font-style: italic;
+
+}
+
+
   /* override bootstrap hover color and border */
   .navbar-default .navbar-nav > li > a:hover {
     color: #4aaaa5;
