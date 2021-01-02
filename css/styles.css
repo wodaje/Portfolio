@@ -59,10 +59,28 @@ body {
     background:rgb(245, 245, 245);
     box-shadow: 6px 4px 3px darkblue;
   }
+
+  #logo:hover{
+    font-size: 28px;
+    font-weight: 1000;
+    box-shadow: 6px 4px 12px darkblue;
+    padding: 12px;
+  }
   
 .center{
   text-align: center;
-  font-style: italic;
+
+  /* font-style: italic; */
+}
+
+.center:hover {
+  font-weight: 1000;
+  background-color: yellow;
+ }
+
+.link:hover {
+  font-weight: 800;
+  background-color: lightgray;
 }
 
 .small-sub-text{
