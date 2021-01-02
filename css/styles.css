@@ -69,14 +69,21 @@ body {
   
 .center{
   text-align: center;
-
-  /* font-style: italic; */
 }
 
 .center:hover {
   font-weight: 1000;
   background-color: yellow;
  }
+
+ .textA{
+  text-align: center;
+ }
+
+.textA:hover {
+  font-weight: 600;
+ }
+
 
 .link:hover {
   font-weight: 800;
