@@ -151,8 +151,9 @@ font-style: italic;
     float: left;
   
     /* Box-model */
-    width: 200px;
+    width: 33%;
     margin: 0 20px 10px 0;
+    border-radius: 12px;
   }
   /* END ABOUT-ME PAGE */
   
