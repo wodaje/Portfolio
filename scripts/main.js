@@ -4,7 +4,6 @@ let refEl = ('<a onClick="miX();return false;" href="#">PLAY ***PowerBall Number
 
 $(".wildCard").append(refEl)
 
-
 function miX(){
 
     let y = Math.floor(Math.random() * links.length)
@@ -29,8 +28,10 @@ function miX(){
         }
 }
 
+
+// This could have been written easier by just pulling double digit numbers at random but the programming challenge was more interesting this way = live and learn
 function lottoNum(){        
-        
+    
         var lottoArray = []
         var power 
         var nums = ""
@@ -129,7 +130,26 @@ function lottoNum(){
             console.log(" Final Numbers: " + lottoArray + " Power :" + power)
         alert("Your Lotto number suggestion: " + lottoArray + " PowerBall: " + power)
 }   
-    
-  
 
+// Modal Control
+
+
+var modal = document.getElementById("simpleModal")
+var modalBtn = document.getElementById("logo")
+var closeBtn = document.getElementsByClassName("closeBtn")[0]
+
+modalBtn.addEventListener("click", openModal)
+closeBtn.addEventListener("click", closeModal)
+window.addEventListener("click", closeOutModal)
+
+function openModal(){modal.style.display = "flex"}
+
+function closeModal(){modal.style.display = "none"}
+
+function closeOutModal(e){
  
+    if(e.target == modal){
+        modal.style.display = "none"
+    }      
+
+}

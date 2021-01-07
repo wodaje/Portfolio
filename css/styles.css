@@ -74,20 +74,19 @@ body {
 .center:hover {
   font-weight: 1000;
   background-color: yellow;
+  border-radius: 12px;
+  padding: 6px;
  }
 
  .textA{
   text-align: center;
  }
 
-.textA:hover {
-  font-weight: 600;
- }
-
-
 .link:hover {
   font-weight: 800;
   background-color: lightgray;
+  border-radius: 12px;
+  padding: 6px;
 }
 
 .small-sub-text{
@@ -110,7 +109,17 @@ font-style: italic;
   /* media query for nav background color change */
   @media only screen and (max-width: 767px) {
     .navbar-header {
-      background-color: #4aaaa5;
+      background-color: #4aaaa5; 
+    }
+    
+    h3{
+        font-size: 1.5rem; 
+      }
+  }
+
+  @media only screen and (max-width: 550px) {
+    h3{
+      font-size: 1rem; 
     }
   }
   /* END NAV */
@@ -128,6 +137,10 @@ font-style: italic;
     height: 55px;
   }
   
+  #logo{
+    border: none;
+  }
+
   #images {
     /* Box-model */
     padding-top: 15px;
@@ -187,6 +200,7 @@ font-style: italic;
   .port-image {
     margin: 20px auto;
   }
+
 .link_gray{
 color: black;
 text-decoration: none;
@@ -222,4 +236,65 @@ opacity: 0.8;
   }
   
   /* END CONTACT FORM PAGE */
-  
+
+  /*Modal*/
+
+  .modal{
+    display:none;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.75);
+    }
+    
+    .modal-content{
+    background-color: #f4f4f4;
+    margin: auto;
+    width: 30%;
+    height: auto;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.8),0 7px 20px 0 rgb(0,0,0,.5);
+    animation-name: modalopen;
+    animation-duration: 0.85s;
+    }
+    
+    .modal-header h2{
+        margin:0;
+    }
+
+    .modal-header{
+    align-content: space-between;
+    background-color: rgb(80, 165, 255);
+    padding: 10px;
+    color: #fff;
+    }
+    
+    .modal-body{
+    padding: 10px 30px;
+    align-content: center;
+    }
+    
+    .modal-footer{
+    background-color: rgb(80, 165, 255);
+    padding: 10px;
+    color: white;
+    justify-content: center;
+    }
+    
+    .closeBtn{
+    align-self:top;
+    color: white;
+    font-size: 30px;
+    }
+    
+    .closeBtn:hover, closeBtn:focus{
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    }
+    
+    @keyframes modalopen{
+    from{ opacity:0}
+    to {opacity: 1}
+    
+    }
