@@ -106,22 +106,18 @@ font-style: italic;
     border: none;
   }
   
-  /* media query for nav background color change */
-  @media only screen and (max-width: 767px) {
-    .navbar-header {
-      background-color: #4aaaa5; 
-    }
     
-    h3{
-        font-size: 1.5rem; 
-      }
-  }
+    
 
+  
+/*   
   @media only screen and (max-width: 550px) {
     h3{
       font-size: 1rem; 
     }
-  }
+  } */
+
+
   /* END NAV */
   
   
@@ -251,7 +247,7 @@ opacity: 0.8;
     .modal-content{
     background-color: #f4f4f4;
     margin: auto;
-    width: 30%;
+    width: 40%;
     height: auto;
     box-shadow: 0 5px 8px 0 rgba(0,0,0,0.8),0 7px 20px 0 rgb(0,0,0,.5);
     animation-name: modalopen;
@@ -263,6 +259,7 @@ opacity: 0.8;
     }
 
     .modal-header{
+    display: flex;
     align-content: space-between;
     background-color: rgb(80, 165, 255);
     padding: 10px;
@@ -298,3 +295,32 @@ opacity: 0.8;
     to {opacity: 1}
     
     }
+     /* media query for nav background color change */
+  @media only screen and (max-width: 767px) {
+    .navbar-header {
+      background-color: #4aaaa5; 
+    }
+    .modal-content{
+      background-color: #f4f4f4;
+      margin: auto;
+      width: 60%;
+      height: auto;
+      box-shadow: 0 5px 8px 0 rgba(0,0,0,0.8),0 7px 20px 0 rgb(0,0,0,.5);
+      animation-name: modalopen;
+      animation-duration: 0.85s;
+      }
+  
+  }
+
+  @media only screen and (max-width: 550px) {
+  
+    .modal-content{
+      background-color: #f4f4f4;
+      margin: auto;
+      width: 80%;
+      height: auto;
+      box-shadow: 0 5px 8px 0 rgba(0,0,0,0.8),0 7px 20px 0 rgb(0,0,0,.5);
+      animation-name: modalopen;
+      animation-duration: 0.85s;
+      }
+  }
