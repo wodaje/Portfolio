@@ -10,6 +10,7 @@ function miX(){
     // array adjustment
     y = y + 1
     
+    y = 4
     if      (y === 1) {
         alert("My Lucky Link ;o) ! - but keep trying!!")
         window.location.assign("https://www.linkedin.com/in/jeff-woda-1033933/")
@@ -130,6 +131,30 @@ function lottoNum(){
             console.log(" Final Numbers: " + lottoArray + " Power :" + power)
         alert("Your Lotto number suggestion: " + lottoArray + " PowerBall: " + power)
 }   
+
+
+// function singleRand(x1,x2) {
+   
+//     do {
+//         x1 = Math.floor(Math.random() * 10)
+//     }
+//     while (x1 > 6)
+
+//     if (x1 === 0){
+//         do {
+//             x2 = Math.floor(Math.random() * 10)
+//         }  
+//         while (x2 === 0)
+//     } 
+//     console.log(x1)
+//     console.log(x2)
+
+//     return x1,x2
+
+
+// }
+
+
 
 // Modal Control
 
