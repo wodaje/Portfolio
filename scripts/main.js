@@ -10,7 +10,7 @@ function miX(){
     // array adjustment
     y = y + 1
     
-    y = 4
+
     if      (y === 1) {
         alert("My Lucky Link ;o) ! - but keep trying!!")
         window.location.assign("https://www.linkedin.com/in/jeff-woda-1033933/")
