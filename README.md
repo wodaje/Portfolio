@@ -21,18 +21,11 @@ _(Future development on this issue is to change the auto-forward page feature to
 
 ## Table of Contents
 
-* [Installation](#Installation)
 * [Usage](#Usage)
 * [Contributing](#Contributing)
-* [Tests](#Tests)
+* [ScreenShots](#ScreenShots)
 * [Questions](#Questions)
 * [License](#License)
-
-
-
-## Installation
-
-Not Applicable
 
 
 ## Usage 
@@ -43,9 +36,12 @@ For informational and promotional purposes.
 
 Contributions are welcomed with proper documentation on their features/add ons.
 
-## Tests
+## ScreenShots
 
-Nothing to test really.
+![](./assets/About.gif)
+![](./assets/Portfolio.gif)
+![](./assets/Contact.gif)
+![](./assets/Modal.gif)
 
 
 ## Questions
@@ -58,4 +54,4 @@ Contact email: [jeff@wodahouse.com](mailto:jeff@wodahouse.com)
 
 ---
 
-© 2020 Wodahouse.com dwyhd (do what your heart desires) license Readme Generator - delete this line if unwanted!
+© 2020 Wodahouse.com dwyhd (do what your heart desires) license Readme Generator generated!
