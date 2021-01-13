@@ -25,7 +25,6 @@ _(Future development on this issue is to change the auto-forward page feature to
 * [Contributing](#Contributing)
 * [ScreenShots](#ScreenShots)
 * [Questions](#Questions)
-* [License](#License)
 
 
 ## Usage 
