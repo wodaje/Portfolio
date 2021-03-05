@@ -72,10 +72,11 @@ body {
 }
 
 .center:hover {
-  font-weight: 1000;
+  font-weight: 600;
   background-color: yellow;
   border-radius: 12px;
   padding: 6px;
+  color: black;
  }
 
  .textA{
@@ -83,10 +84,11 @@ body {
  }
 
 .link:hover {
-  font-weight: 800;
-  background-color: lightgray;
-  border-radius: 12px;
+  font-weight: 700;
+  background-color: darkblue;
+  border-radius: 8px;
   padding: 6px;
+  color: white;
 }
 
 .small-sub-text{
